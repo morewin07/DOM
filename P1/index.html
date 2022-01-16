@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Menú desplegable</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+</head>
+
+<body>
+    <div>
+
+        <p>Menú desplegable</p>
+
+        <ul>
+            <li onclick="submenu(this)">Opción 1
+                <ul id="opcion1" style="display: none;">
+                    <li>Subopción 1.1</li>
+                    <li>Subopción 1.2</li>
+
+                </ul>
+            </li>
+            <li onclick="submenu(this)">Opción 2
+                <ul id="opcion1" style="display: none;">
+                    <li>Subopción 2.1</li>
+                    <li>Subopción 2.2</li>
+
+                </ul>
+            </li>
+
+
+        </ul>
+
+    </div>
+
+</body>
+<script src='js/script.js'></script>
+
+</html>
